@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: rgb(63, 165, 63);
+    background-color: rgb(63, 165, 63) !important;
     color: white;
     padding: 1em;
     text-align: center;
