@@ -27,3 +27,13 @@ button{
 button:hover {
     background-color: rgb(41, 228, 47) ;
 }
+
+footer {
+    background-color: rgb(63, 165, 63);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
