@@ -5,14 +5,18 @@
     <title>Mi Primera Página Web</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
+      .espacio-contenido{
+        border-radius: 15px;
+        padding: 20px 5px;        
+      }
+      
       #mi-presentacion-uno{
         border:1px solid rgb(4, 179, 4);
-        border-radius: 30px;
       }
 
       #mi-presentacion-dos{
         border:1px solid rgb(3, 170, 200);
-        border-radius: 30px;
       }
 
       #color-texto{
@@ -27,12 +31,12 @@
     <main>
       <section id="intro">
         <h2>Control del mouse</h2>
-        <p id="mi-presentacion-uno1">
+        <p class="espacio-contenido" id="mi-presentacion-uno">
           Esta es mi pagina web, con etiquetas,
           <s>enlaces</s>, menu, <mark>interaccion javaScript</mark>, 
           encabezado y pie de pagina y <i>más...</i>
         </p>
-        <p id="mi-presentacion-dos">
+        <p class="espacio-contenido" id="mi-presentacion-dos">
           <span id="color-texto">Esta es mi pagina web, con etiquetas, 
           enlaces, menu, interaccion javaScript, 
           encabezado y pie de pagina...</span>
