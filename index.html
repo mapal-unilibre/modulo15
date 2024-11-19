@@ -5,14 +5,18 @@
     <title>Mi Primera Página Web</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      #mi_presentacion_1{
+      #mi-presentacion-uno{
         border:1px solid rgb(4, 179, 4);
         border-radius: 30px;
       }
 
-      #mi_presentacion_2{
+      #mi-presentacion-dos{
         border:1px solid rgb(3, 170, 200);
         border-radius: 30px;
+      }
+
+      #color-texto{
+        color: red;
       }
     </style>
   </head>
@@ -23,9 +27,19 @@
     <main>
       <section id="intro">
         <h2>Control del mouse</h2>
-        <p id="mi_presentacion_1">Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
-        <p id="mi_presentacion_2">Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
-        <button id="changeTextButton">Haz clic para cambiar el texto</button>
+        <p id="mi-presentacion-uno1">
+          Esta es mi pagina web, con etiquetas,
+          <s>enlaces</s>, menu, <mark>interaccion javaScript</mark>, 
+          encabezado y pie de pagina y <i>más...</i>
+        </p>
+        <p id="mi-presentacion-dos">
+          <span id="color-texto">Esta es mi pagina web, con etiquetas, 
+          enlaces, menu, interaccion javaScript, 
+          encabezado y pie de pagina...</span>
+        </p>
+        <button id="changeTextButton">
+          Haz clic para cambiar el texto
+        </button>
       </section>
     </main>
     <script src="script.js"></script>
